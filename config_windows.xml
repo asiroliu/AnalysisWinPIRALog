@@ -1,0 +1,39 @@
+<xml>
+    <PCIE>
+        <DEV_ADD>S0:B0:D0:F0 0x80000000</DEV_ADD>
+        <LINK>
+            <capable>
+                <x4>2.5Gb</x4>
+            </capable>
+            <negotiated>
+                <x0>0.0Gb</x0>
+            </negotiated>
+        </LINK>
+        <VID_DID>Haswell-E DMI2</VID_DID>
+        <CLASS>BRIDGE_DEV, Host</CLASS>
+    </PCIE>
+    <enthernet>
+        <DEV_ADD>S0:B1:D0:F0 0x80200000</DEV_ADD>
+        <LINK>
+            <capable>
+                <x4>5.0Gb</x4>
+            </capable>
+            <negotiated>
+                <x4>5.0Gb</x4>
+            </negotiated>
+        </LINK>
+    </enthernet>
+    <enthernet>
+        <DEV_ADD>S0:B0:D1:F0 0x80008000</DEV_ADD>
+        <LINK>
+            <capable>
+                <x8>8.0Gb</x8>
+            </capable>
+            <negotiated>
+                <x4>5.0Gb</x4>
+            </negotiated>
+        </LINK>
+        <VID_DID>Haswell-E PCI Express Root Port 2</VID_DID>
+        <CLASS>Norml decode</CLASS>
+    </enthernet>
+</xml>
