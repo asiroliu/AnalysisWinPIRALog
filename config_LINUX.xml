@@ -1,0 +1,13 @@
+<xml>
+    <DEV>
+        <DEV_NAME>ost bridge: Intel Corporation Haswell-E DMI2 (rev 02)</DEV_NAME>
+    </DEV>
+    <DEV>
+        <DEV_NAME>PCI bridge: Intel Corporation Haswell-E PCI Express Root Port 1 (rev 02) (prog-if 00 [Normal decode])
+        </DEV_NAME>
+    </DEV>
+    <DEV>
+        <DEV_NAME>PCI bridge: Intel Corporation Haswell-E PCI Express Root Port 2 (rev 02) (prog-if 00 [Normal decode])
+        </DEV_NAME>
+    </DEV>
+</xml>
