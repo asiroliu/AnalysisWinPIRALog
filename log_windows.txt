@@ -1,0 +1,1209 @@
+
+WinPIRA Version:3.2 July 10th 2013
+
+
+-------------------------------------------
+	Bus Device Information
+-------------------------------------------
+memrw.exe -t 
+Version:7.0.RTM Nov 5th 2012
+Supports PCIE Gen1, Gen2, Gen3 and > 256 Processors platform. Runs on XP, W2K3, Vista, W2K8R2, W7 & W8
+
+
+DEV_ADD:  S0:B0:D0:F0 0x80000000
+VID_DID:  80862f00, Intel Corporation, Haswell-E DMI2
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BRIDGE_DEV, Host
+PCIE:     Root Port of PCI Express Root Complex
+LINK:     x4 at 2.5Gb capable, x0 at 0.0Gb negotiated 
+
+DEV_ADD:  S0:B0:D1:F0 0x80008000
+VID_DID:  80862f02, Intel Corporation, Haswell-E PCI Express Root Port 1
+CLASS:    BRIDGE_DEV, PCI, Normal decode
+PCIE:     PCIE - PCIE, SecBus:1, No SubBus below Root Port of PCI Express Root Complex, Slot# 0
+LINK:     x8 at 8.0Gb capable, x4 at 5.0Gb negotiated 
+
+	DEV_ADD:  S0:B1:D0:F0 0x80100000
+	VID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	SVID_DID: 8086  Intel Corporation, 35c8
+	CLASS:    NETWORK_CTLR, Ethernet controller
+	PCIE:     PCI Express Endpoint
+	LINK:     x4 at 5.0Gb capable, x4 at 5.0Gb negotiated 
+
+	DEV_ADD:  S0:B1:D0:F1 0x80101000
+	VID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	SVID_DID: 8086  Intel Corporation, 35c8
+	CLASS:    NETWORK_CTLR, Ethernet controller
+	PCIE:     PCI Express Endpoint
+	LINK:     x4 at 5.0Gb capable, x4 at 5.0Gb negotiated \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/  
+
+DEV_ADD:  S0:B0:D2:F0 0x80010000
+VID_DID:  80862f04, Intel Corporation, Haswell-E PCI Express Root Port 2
+CLASS:    BRIDGE_DEV, PCI, Normal decode
+PCIE:     PCIE - PCIE, SecBus:2, No SubBus below Root Port of PCI Express Root Complex, Slot# 865
+LINK:     x16 at 8.0Gb capable, x0 at 2.5Gb negotiated  
+
+DEV_ADD:  S0:B0:D3:F0 0x80018000
+VID_DID:  80862f08, Intel Corporation, Haswell-E PCI Express Root Port 3
+CLASS:    BRIDGE_DEV, PCI, Normal decode
+PCIE:     PCIE - PCIE, SecBus:3, No SubBus below Root Port of PCI Express Root Complex, Slot# 261
+LINK:     x8 at 8.0Gb capable, x0 at 2.5Gb negotiated  
+
+DEV_ADD:  S0:B0:D3:F2 0x8001A000
+VID_DID:  80862f0a, Intel Corporation, Haswell-E PCI Express Root Port 3
+CLASS:    BRIDGE_DEV, PCI, Normal decode
+PCIE:     PCIE - PCIE, SecBus:4, No SubBus below Root Port of PCI Express Root Complex, Slot# 0
+LINK:     x8 at 8.0Gb capable, x0 at 8.0Gb negotiated  
+
+DEV_ADD:  S0:B0:D4:F0 0x80020000
+VID_DID:  80862f20, Intel Corporation, Haswell-E DMA Channel 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F1 0x80021000
+VID_DID:  80862f21, Intel Corporation, Haswell-E DMA Channel 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F2 0x80022000
+VID_DID:  80862f22, Intel Corporation, Haswell-E DMA Channel 2
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F3 0x80023000
+VID_DID:  80862f23, Intel Corporation, Haswell-E DMA Channel 3
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F4 0x80024000
+VID_DID:  80862f24, Intel Corporation, Haswell-E DMA Channel 4
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F5 0x80025000
+VID_DID:  80862f25, Intel Corporation, Haswell-E DMA Channel 5
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F6 0x80026000
+VID_DID:  80862f26, Intel Corporation, Haswell-E DMA Channel 6
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D4:F7 0x80027000
+VID_DID:  80862f27, Intel Corporation, Haswell-E DMA Channel 7
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D5:F0 0x80028000
+VID_DID:  80862f28, Intel Corporation, Haswell-E Address Map, VTd_Misc, System Management
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D5:F1 0x80029000
+VID_DID:  80862f29, Intel Corporation, Haswell-E Hot Plug
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D5:F2 0x8002A000
+VID_DID:  80862f2a, Intel Corporation, Haswell-E RAS, Control Status and Global Errors
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D5:F4 0x8002C000
+VID_DID:  80862f2c, Intel Corporation, Haswell-E I/O Apic
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, 8259PIC_CTLR, IO(X)-APIC
+PCIE:     Root Complex Integrated Endpoint|/-\|/-\|/-
+
+DEV_ADD:  S0:B0:D17:F0 0x80088000
+VID_DID:  80868d7c, Intel Corporation, Wellsburg SPSR
+SVID_DID: 8086  Intel Corporation, 0000
+CLASS:    Undefined Base Class 0xff
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B0:D17:F4 0x8008C000
+VID_DID:  80868d62, Intel Corporation, Wellsburg sSATA Controller [AHCI mode]
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    MASS_STORAGE_CTLR, SATA controller, AHCI 1.0
+CAP_REG:  Serial ATA Data/Index Configuration |/
+
+DEV_ADD:  S0:B0:D20:F0 0x800A0000
+VID_DID:  80868d31, Intel Corporation, Wellsburg USB xHCI Host Controller
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    SERIAL_BUS_CTLR, USB Controller, Undefined Interface 0x30
+CAP_REG:  PCI Power Managment \
+
+DEV_ADD:  S0:B0:D22:F0 0x800B0000
+VID_DID:  80868d3a, Intel Corporation, Wellsburg MEI Controller #1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    SIMPLE_COMMS_CTLR, Communication controller
+CAP_REG:  Message Signaled Interrupt 
+
+DEV_ADD:  S0:B0:D22:F1 0x800B1000
+VID_DID:  80868d3b, Intel Corporation, Wellsburg MEI Controller #2
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    SIMPLE_COMMS_CTLR, Communication controller
+CAP_REG:  Message Signaled Interrupt /-\
+
+DEV_ADD:  S0:B0:D26:F0 0x800D0000
+VID_DID:  80868d2d, Intel Corporation, Wellsburg USB Enhanced Host Controller #2
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    SERIAL_BUS_CTLR, USB Controller, EHCI
+CAP_REG:  Supports PCIE Advance Features /
+
+DEV_ADD:  S0:B0:D28:F0 0x800E0000
+VID_DID:  80868d16, Intel Corporation, Wellsburg PCI Express Root Port #4
+CLASS:    BRIDGE_DEV, PCI, Normal decode
+PCIE:     PCIE - PCIE, SecBus:5, No SubBus below Root Port of PCI Express Root Complex, Slot# 40
+LINK:     x1 at 5.0Gb capable, x1 at 2.5Gb negotiated 
+
+	DEV_ADD:  S0:B5:D0:F0 0x80500000
+	VID_DID:  102b0522, Matrox Electronics Systems Ltd., MGA G200e [Pilot] ServerEngines (SEP1)
+	SVID_DID: 8086  Intel Corporation, 0103
+	CLASS:    DISPLAY_CTLR, VGA compatible controller, VGA controller
+	PCIE:     Legacy PCI Express Endpoint
+	LINK:     x1 at 2.5Gb capable, x1 at 2.5Gb negotiated \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/  
+
+DEV_ADD:  S0:B0:D29:F0 0x800E8000
+VID_DID:  80868d26, Intel Corporation, Wellsburg USB Enhanced Host Controller #1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    SERIAL_BUS_CTLR, USB Controller, EHCI
+CAP_REG:  Supports PCIE Advance Features |
+
+DEV_ADD:  S0:B0:D31:F0 0x800F8000
+VID_DID:  80868d44, Intel Corporation, Wellsburg LPC Controller
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BRIDGE_DEV, ISA
+CAP_REG:  Vendor Specific 
+
+DEV_ADD:  S0:B0:D31:F2 0x800FA000
+VID_DID:  80868d02, Intel Corporation, Wellsburg 6-Port SATA Controller [AHCI mode]
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    MASS_STORAGE_CTLR, SATA controller, AHCI 1.0
+CAP_REG:  Serial ATA Data/Index Configuration 
+
+DEV_ADD:  S0:B0:D31:F3 0x800FB000
+VID_DID:  80868d22, Intel Corporation, Wellsburg SMBus Controller
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    SERIAL_BUS_CTLR, SMBus
+CAP_REG:  PCI -\|/-\|/
+
+DEV_ADD:  S0:B127:D8:F0 0x87F40000
+VID_DID:  80862f80, Intel Corporation, Haswell-E QPI Link 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D8:F2 0x87F42000
+VID_DID:  80862f32, Intel Corporation, Haswell-E QPI Link 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D8:F3 0x87F43000
+VID_DID:  80862f83, Intel Corporation, Haswell-E QPI Link 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D9:F0 0x87F48000
+VID_DID:  80862f90, Intel Corporation, Haswell-E QPI Link 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D9:F2 0x87F4A000
+VID_DID:  80862f33, Intel Corporation, Haswell-E QPI Link 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D9:F3 0x87F4B000
+VID_DID:  80862f93, Intel Corporation, Haswell-E QPI Link 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI|
+
+DEV_ADD:  S0:B127:D11:F0 0x87F58000
+VID_DID:  80862f81, Intel Corporation, Haswell-E R3 QPI Link 0 &amp; 1 Monitoring
+SVID_DID: 8086  Intel Corporation, 2f81
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D11:F1 0x87F59000
+VID_DID:  80862f36, Intel Corporation, Haswell-E R3 QPI Link 0 &amp; 1 Monitoring
+SVID_DID: 8086  Intel Corporation, 2f36
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D11:F2 0x87F5A000
+VID_DID:  80862f37, Intel Corporation, Haswell-E R3 QPI Link 0 &amp; 1 Monitoring
+SVID_DID: 8086  Intel Corporation, 2f37
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F0 0x87F60000
+VID_DID:  80862fe0, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F1 0x87F61000
+VID_DID:  80862fe1, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F2 0x87F62000
+VID_DID:  80862fe2, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe2
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F3 0x87F63000
+VID_DID:  80862fe3, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F4 0x87F64000
+VID_DID:  80862fe4, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe4
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F5 0x87F65000
+VID_DID:  80862fe5, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe5
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F6 0x87F66000
+VID_DID:  80862fe6, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe6
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D12:F7 0x87F67000
+VID_DID:  80862fe7, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe7
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F0 0x87F68000
+VID_DID:  80862fe8, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F1 0x87F69000
+VID_DID:  80862fe9, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe9
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F2 0x87F6A000
+VID_DID:  80862fea, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fea
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F3 0x87F6B000
+VID_DID:  80862feb, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2feb
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F4 0x87F6C000
+VID_DID:  80862fec, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fec
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F5 0x87F6D000
+VID_DID:  80862fed, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fed
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F6 0x87F6E000
+VID_DID:  80862fee, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fee
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D13:F7 0x87F6F000
+VID_DID:  80862fef, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fef
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D14:F0 0x87F70000
+VID_DID:  80862ff0, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2ff0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D14:F1 0x87F71000
+VID_DID:  80862ff1, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2ff1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F0 0x87F78000
+VID_DID:  80862ff8, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F1 0x87F79000
+VID_DID:  80862ff9, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F2 0x87F7A000
+VID_DID:  80862ffa, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F3 0x87F7B000
+VID_DID:  80862ffb, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F4 0x87F7C000
+VID_DID:  80862ffc, Intel Corporation, Haswell-E System Address Decoder &amp; Broadcast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F5 0x87F7D000
+VID_DID:  80862ffd, Intel Corporation, Haswell-E System Address Decoder &amp; Broadcast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D15:F6 0x87F7E000
+VID_DID:  80862ffe, Intel Corporation, Haswell-E System Address Decoder &amp; Broadcast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D16:F0 0x87F80000
+VID_DID:  80862f1d, Intel Corporation, Haswell-E PCIe Ring Interface
+SVID_DID: 8086  Intel Corporation, 2f1d
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D16:F1 0x87F81000
+VID_DID:  80862f34, Intel Corporation, Haswell-E PCIe Ring Interface
+SVID_DID: 8086  Intel Corporation, 2f34
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D16:F5 0x87F85000
+VID_DID:  80862f1e, Intel Corporation, Haswell-E Scratchpad &amp; Semaphore Registers
+SVID_DID: 8086  Intel Corporation, 2f1e
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D16:F6 0x87F86000
+VID_DID:  80862f7d, Intel Corporation, Haswell-E Scratchpad &amp; Semaphore Registers
+SVID_DID: 8086  Intel Corporation, 2f7d
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D16:F7 0x87F87000
+VID_DID:  80862f1f, Intel Corporation, Haswell-E Scratchpad &amp; Semaphore Registers
+SVID_DID: 8086  Intel Corporation, 2f1f
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI\
+
+DEV_ADD:  S0:B127:D18:F0 0x87F90000
+VID_DID:  80862fa0, Intel Corporation, Haswell-E Home Agent 0
+SVID_DID: 8086  Intel Corporation, 2fa0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D18:F1 0x87F91000
+VID_DID:  80862f30, Intel Corporation, Haswell-E Home Agent 0
+SVID_DID: 8086  Intel Corporation, 2f30
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D18:F4 0x87F94000
+VID_DID:  80862f60, Intel Corporation, Haswell-E Home Agent 1
+SVID_DID: 8086  Intel Corporation, 2f60
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D18:F5 0x87F95000
+VID_DID:  80862f38, Intel Corporation, Haswell-E Home Agent 1
+SVID_DID: 8086  Intel Corporation, 2f38
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D19:F0 0x87F98000
+VID_DID:  80862fa8, Intel Corporation, Haswell-E Integrated Memory Controller 0 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2fa8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D19:F1 0x87F99000
+VID_DID:  80862f71, Intel Corporation, Haswell-E Integrated Memory Controller 0 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2f71
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D19:F2 0x87F9A000
+VID_DID:  80862faa, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2faa
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D19:F3 0x87F9B000
+VID_DID:  80862fab, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2fab
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D19:F6 0x87F9E000
+VID_DID:  80862fae, Intel Corporation, Haswell-E DDRIO Channel 0/1 Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D19:F7 0x87F9F000
+VID_DID:  80862faf, Intel Corporation, Haswell-E DDRIO Global Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F0 0x87FA0000
+VID_DID:  80862fb0, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 0 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fb0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F1 0x87FA1000
+VID_DID:  80862fb1, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 1 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fb1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F2 0x87FA2000
+VID_DID:  80862fb2, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 0 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fb2
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F3 0x87FA3000
+VID_DID:  80862fb3, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 1 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fb3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F4 0x87FA4000
+VID_DID:  80862fbc, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F5 0x87FA5000
+VID_DID:  80862fbd, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F6 0x87FA6000
+VID_DID:  80862fbe, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D20:F7 0x87FA7000
+VID_DID:  80862fbf, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI\
+
+DEV_ADD:  S0:B127:D22:F0 0x87FB0000
+VID_DID:  80862f68, Intel Corporation, Haswell-E Integrated Memory Controller 1 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2f68
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D22:F1 0x87FB1000
+VID_DID:  80862f79, Intel Corporation, Haswell-E Integrated Memory Controller 1 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2f79
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D22:F2 0x87FB2000
+VID_DID:  80862f6a, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2f6a
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D22:F3 0x87FB3000
+VID_DID:  80862f6b, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2f6b
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D22:F6 0x87FB6000
+VID_DID:  80862f6e, Intel Corporation, Haswell-E DDRIO Channel 2/3 Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D22:F7 0x87FB7000
+VID_DID:  80862f6f, Intel Corporation, Haswell-E DDRIO Global Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F0 0x87FB8000
+VID_DID:  80862fd0, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 0 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fd0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F1 0x87FB9000
+VID_DID:  80862fd1, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 1 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fd1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F2 0x87FBA000
+VID_DID:  80862fd2, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 0 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fd2
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F3 0x87FBB000
+VID_DID:  80862fd3, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 1 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fd3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F4 0x87FBC000
+VID_DID:  80862fb8, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F5 0x87FBD000
+VID_DID:  80862fb9, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F6 0x87FBE000
+VID_DID:  80862fba, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D23:F7 0x87FBF000
+VID_DID:  80862fbb, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI-\|/-\
+
+DEV_ADD:  S0:B127:D30:F0 0x87FF0000
+VID_DID:  80862f98, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f98
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D30:F1 0x87FF1000
+VID_DID:  80862f99, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f99
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D30:F2 0x87FF2000
+VID_DID:  80862f9a, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f9a
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D30:F3 0x87FF3000
+VID_DID:  80862fc0, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2fc0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D30:F4 0x87FF4000
+VID_DID:  80862f9c, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f9c
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D31:F0 0x87FF8000
+VID_DID:  80862f88, Intel Corporation, Haswell-E VCU
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B127:D31:F2 0x87FFA000
+VID_DID:  80862f8a, Intel Corporation, Haswell-E VCU
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI -
+
+DEV_ADD:  S0:B128:D1:F0 0x88008000
+VID_DID:  80862f02, Intel Corporation, Haswell-E PCI Express Root Port 1
+CLASS:    BRIDGE_DEV, PCI, Normal decode
+PCIE:     PCIE - PCIE, SecBus:129, HighBus:130, Root Port of PCI Express Root Complex, Slot# 259
+LINK:     x8 at 8.0Gb capable, x4 at 5.0Gb negotiated 
+
+	DEV_ADD:  S0:B129:D0:F0 0x88100000
+	VID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	SVID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	CLASS:    NETWORK_CTLR, Ethernet controller
+	PCIE:     PCI Express Endpoint
+	LINK:     x4 at 5.0Gb capable, x4 at 5.0Gb negotiated 
+
+	DEV_ADD:  S0:B129:D0:F1 0x88101000
+	VID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	SVID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	CLASS:    NETWORK_CTLR, Ethernet controller
+	PCIE:     PCI Express Endpoint
+	LINK:     x4 at 5.0Gb capable, x4 at 5.0Gb negotiated 
+
+	DEV_ADD:  S0:B129:D0:F2 0x88102000
+	VID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	SVID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	CLASS:    NETWORK_CTLR, Ethernet controller
+	PCIE:     PCI Express Endpoint
+	LINK:     x4 at 5.0Gb capable, x4 at 5.0Gb negotiated 
+
+	DEV_ADD:  S0:B129:D0:F3 0x88103000
+	VID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	SVID_DID:  80861521, Intel Corporation, I350 Gigabit Network Connection
+	CLASS:    NETWORK_CTLR, Ethernet controller
+	PCIE:     PCI Express Endpoint
+	LINK:     x4 at 5.0Gb capable, x4 at 5.0Gb negotiated \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/  |/
+
+DEV_ADD:  S0:B128:D4:F0 0x88020000
+VID_DID:  80862f20, Intel Corporation, Haswell-E DMA Channel 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F1 0x88021000
+VID_DID:  80862f21, Intel Corporation, Haswell-E DMA Channel 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F2 0x88022000
+VID_DID:  80862f22, Intel Corporation, Haswell-E DMA Channel 2
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F3 0x88023000
+VID_DID:  80862f23, Intel Corporation, Haswell-E DMA Channel 3
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F4 0x88024000
+VID_DID:  80862f24, Intel Corporation, Haswell-E DMA Channel 4
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F5 0x88025000
+VID_DID:  80862f25, Intel Corporation, Haswell-E DMA Channel 5
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F6 0x88026000
+VID_DID:  80862f26, Intel Corporation, Haswell-E DMA Channel 6
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D4:F7 0x88027000
+VID_DID:  80862f27, Intel Corporation, Haswell-E DMA Channel 7
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D5:F0 0x88028000
+VID_DID:  80862f28, Intel Corporation, Haswell-E Address Map, VTd_Misc, System Management
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D5:F1 0x88029000
+VID_DID:  80862f29, Intel Corporation, Haswell-E Hot Plug
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D5:F2 0x8802A000
+VID_DID:  80862f2a, Intel Corporation, Haswell-E RAS, Control Status and Global Errors
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+PCIE:     Root Complex Integrated Endpoint
+
+DEV_ADD:  S0:B128:D5:F4 0x8802C000
+VID_DID:  80862f2c, Intel Corporation, Haswell-E I/O Apic
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, 8259PIC_CTLR, IO(X)-APIC
+PCIE:     Root Complex Integrated Endpoint|/-\|/-\|/-\|/-\|/-\|/-\|/ -\|/-\|/
+
+DEV_ADD:  S0:B255:D8:F0 0x8FF40000
+VID_DID:  80862f80, Intel Corporation, Haswell-E QPI Link 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D8:F2 0x8FF42000
+VID_DID:  80862f32, Intel Corporation, Haswell-E QPI Link 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D8:F3 0x8FF43000
+VID_DID:  80862f83, Intel Corporation, Haswell-E QPI Link 0
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D9:F0 0x8FF48000
+VID_DID:  80862f90, Intel Corporation, Haswell-E QPI Link 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D9:F2 0x8FF4A000
+VID_DID:  80862f33, Intel Corporation, Haswell-E QPI Link 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D9:F3 0x8FF4B000
+VID_DID:  80862f93, Intel Corporation, Haswell-E QPI Link 1
+SVID_DID: 8086  Intel Corporation, 35c8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI|
+
+DEV_ADD:  S0:B255:D11:F0 0x8FF58000
+VID_DID:  80862f81, Intel Corporation, Haswell-E R3 QPI Link 0 &amp; 1 Monitoring
+SVID_DID: 8086  Intel Corporation, 2f81
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D11:F1 0x8FF59000
+VID_DID:  80862f36, Intel Corporation, Haswell-E R3 QPI Link 0 &amp; 1 Monitoring
+SVID_DID: 8086  Intel Corporation, 2f36
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D11:F2 0x8FF5A000
+VID_DID:  80862f37, Intel Corporation, Haswell-E R3 QPI Link 0 &amp; 1 Monitoring
+SVID_DID: 8086  Intel Corporation, 2f37
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F0 0x8FF60000
+VID_DID:  80862fe0, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F1 0x8FF61000
+VID_DID:  80862fe1, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F2 0x8FF62000
+VID_DID:  80862fe2, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe2
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F3 0x8FF63000
+VID_DID:  80862fe3, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F4 0x8FF64000
+VID_DID:  80862fe4, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe4
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F5 0x8FF65000
+VID_DID:  80862fe5, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe5
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F6 0x8FF66000
+VID_DID:  80862fe6, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe6
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D12:F7 0x8FF67000
+VID_DID:  80862fe7, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe7
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F0 0x8FF68000
+VID_DID:  80862fe8, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F1 0x8FF69000
+VID_DID:  80862fe9, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fe9
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F2 0x8FF6A000
+VID_DID:  80862fea, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fea
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F3 0x8FF6B000
+VID_DID:  80862feb, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2feb
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F4 0x8FF6C000
+VID_DID:  80862fec, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fec
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F5 0x8FF6D000
+VID_DID:  80862fed, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fed
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F6 0x8FF6E000
+VID_DID:  80862fee, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fee
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D13:F7 0x8FF6F000
+VID_DID:  80862fef, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2fef
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D14:F0 0x8FF70000
+VID_DID:  80862ff0, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2ff0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D14:F1 0x8FF71000
+VID_DID:  80862ff1, Intel Corporation, Haswell-E Unicast Registers
+SVID_DID: 8086  Intel Corporation, 2ff1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F0 0x8FF78000
+VID_DID:  80862ff8, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F1 0x8FF79000
+VID_DID:  80862ff9, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F2 0x8FF7A000
+VID_DID:  80862ffa, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F3 0x8FF7B000
+VID_DID:  80862ffb, Intel Corporation, Haswell-E Buffered Ring Agent
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F4 0x8FF7C000
+VID_DID:  80862ffc, Intel Corporation, Haswell-E System Address Decoder &amp; Broadcast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F5 0x8FF7D000
+VID_DID:  80862ffd, Intel Corporation, Haswell-E System Address Decoder &amp; Broadcast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D15:F6 0x8FF7E000
+VID_DID:  80862ffe, Intel Corporation, Haswell-E System Address Decoder &amp; Broadcast Registers
+SVID_DID: 8086  Intel Corporation, 2fe0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D16:F0 0x8FF80000
+VID_DID:  80862f1d, Intel Corporation, Haswell-E PCIe Ring Interface
+SVID_DID: 8086  Intel Corporation, 2f1d
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D16:F1 0x8FF81000
+VID_DID:  80862f34, Intel Corporation, Haswell-E PCIe Ring Interface
+SVID_DID: 8086  Intel Corporation, 2f34
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D16:F5 0x8FF85000
+VID_DID:  80862f1e, Intel Corporation, Haswell-E Scratchpad &amp; Semaphore Registers
+SVID_DID: 8086  Intel Corporation, 2f1e
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D16:F6 0x8FF86000
+VID_DID:  80862f7d, Intel Corporation, Haswell-E Scratchpad &amp; Semaphore Registers
+SVID_DID: 8086  Intel Corporation, 2f7d
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D16:F7 0x8FF87000
+VID_DID:  80862f1f, Intel Corporation, Haswell-E Scratchpad &amp; Semaphore Registers
+SVID_DID: 8086  Intel Corporation, 2f1f
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI\
+
+DEV_ADD:  S0:B255:D18:F0 0x8FF90000
+VID_DID:  80862fa0, Intel Corporation, Haswell-E Home Agent 0
+SVID_DID: 8086  Intel Corporation, 2fa0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D18:F1 0x8FF91000
+VID_DID:  80862f30, Intel Corporation, Haswell-E Home Agent 0
+SVID_DID: 8086  Intel Corporation, 2f30
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D18:F4 0x8FF94000
+VID_DID:  80862f60, Intel Corporation, Haswell-E Home Agent 1
+SVID_DID: 8086  Intel Corporation, 2f60
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D18:F5 0x8FF95000
+VID_DID:  80862f38, Intel Corporation, Haswell-E Home Agent 1
+SVID_DID: 8086  Intel Corporation, 2f38
+CLASS:    DATA_ACQ_SIGNAL_CTLR, Performance counters
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D19:F0 0x8FF98000
+VID_DID:  80862fa8, Intel Corporation, Haswell-E Integrated Memory Controller 0 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2fa8
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D19:F1 0x8FF99000
+VID_DID:  80862f71, Intel Corporation, Haswell-E Integrated Memory Controller 0 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2f71
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D19:F2 0x8FF9A000
+VID_DID:  80862faa, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2faa
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D19:F3 0x8FF9B000
+VID_DID:  80862fab, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2fab
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D19:F6 0x8FF9E000
+VID_DID:  80862fae, Intel Corporation, Haswell-E DDRIO Channel 0/1 Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D19:F7 0x8FF9F000
+VID_DID:  80862faf, Intel Corporation, Haswell-E DDRIO Global Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F0 0x8FFA0000
+VID_DID:  80862fb0, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 0 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fb0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F1 0x8FFA1000
+VID_DID:  80862fb1, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 1 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fb1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F2 0x8FFA2000
+VID_DID:  80862fb2, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 0 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fb2
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F3 0x8FFA3000
+VID_DID:  80862fb3, Intel Corporation, Haswell-E Integrated Memory Controller 0 Channel 1 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fb3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F4 0x8FFA4000
+VID_DID:  80862fbc, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F5 0x8FFA5000
+VID_DID:  80862fbd, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F6 0x8FFA6000
+VID_DID:  80862fbe, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D20:F7 0x8FFA7000
+VID_DID:  80862fbf, Intel Corporation, Haswell-E DDRIO (VMSE) 0 &amp; 1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI\
+
+DEV_ADD:  S0:B255:D22:F0 0x8FFB0000
+VID_DID:  80862f68, Intel Corporation, Haswell-E Integrated Memory Controller 1 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2f68
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D22:F1 0x8FFB1000
+VID_DID:  80862f79, Intel Corporation, Haswell-E Integrated Memory Controller 1 Target Address, Thermal &amp; RAS Registers
+SVID_DID: 8086  Intel Corporation, 2f79
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D22:F2 0x8FFB2000
+VID_DID:  80862f6a, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2f6a
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D22:F3 0x8FFB3000
+VID_DID:  80862f6b, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
+SVID_DID: 8086  Intel Corporation, 2f6b
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D22:F6 0x8FFB6000
+VID_DID:  80862f6e, Intel Corporation, Haswell-E DDRIO Channel 2/3 Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D22:F7 0x8FFB7000
+VID_DID:  80862f6f, Intel Corporation, Haswell-E DDRIO Global Broadcast
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F0 0x8FFB8000
+VID_DID:  80862fd0, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 0 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fd0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F1 0x8FFB9000
+VID_DID:  80862fd1, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 1 Thermal Control
+SVID_DID: 8086  Intel Corporation, 2fd1
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F2 0x8FFBA000
+VID_DID:  80862fd2, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 0 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fd2
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F3 0x8FFBB000
+VID_DID:  80862fd3, Intel Corporation, Haswell-E Integrated Memory Controller 1 Channel 1 ERROR Registers
+SVID_DID: 8086  Intel Corporation, 2fd3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F4 0x8FFBC000
+VID_DID:  80862fb8, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F5 0x8FFBD000
+VID_DID:  80862fb9, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F6 0x8FFBE000
+VID_DID:  80862fba, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D23:F7 0x8FFBF000
+VID_DID:  80862fbb, Intel Corporation, Haswell-E DDRIO (VMSE) 2 &amp; 3
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI-\|/-\
+
+DEV_ADD:  S0:B255:D30:F0 0x8FFF0000
+VID_DID:  80862f98, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f98
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D30:F1 0x8FFF1000
+VID_DID:  80862f99, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f99
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D30:F2 0x8FFF2000
+VID_DID:  80862f9a, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f9a
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D30:F3 0x8FFF3000
+VID_DID:  80862fc0, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2fc0
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D30:F4 0x8FFF4000
+VID_DID:  80862f9c, Intel Corporation, Haswell-E Power Control Unit
+SVID_DID: 8086  Intel Corporation, 2f9c
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D31:F0 0x8FFF8000
+VID_DID:  80862f88, Intel Corporation, Haswell-E VCU
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI
+
+DEV_ADD:  S0:B255:D31:F2 0x8FFFA000
+VID_DID:  80862f8a, Intel Corporation, Haswell-E VCU
+CLASS:    BASE_SYSTEM_DEV, System peripheral
+CAP_REG:  PCI  
+
+**********Scanning of all PCI devices completed************
