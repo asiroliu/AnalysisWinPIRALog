@@ -4,7 +4,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 """
     Name:       AnalysisWinPIRALog
     Author:     Andy Liu
-    Email :     anx.liu@intal.com
+    Email :     anx.liu@intel.com
     Created:    3/24/2015
     Copyright:  Copyright ©Intel Corporation. All rights reserved.
     Licence:    This program is free software: you can redistribute it 
